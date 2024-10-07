@@ -1,0 +1,42 @@
+{
+  "name": "boka",
+  "version": "1.0.0",
+  "description": "language learning app powered by our smart teacher",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elephantman99/boka.git"
+  },
+  "author": "Pierre Armel Mbanga Ndjock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elephantman99/boka/issues"
+  },
+  "homepage": "https://github.com/elephantman99/boka#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.8.1",
+    "@aws-sdk/s3-request-presigner": "^3.8.1",
+    "aws-sdk": "^2.864.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "graphql-tools": "^7.0.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "sequelize": "^6.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.7"
+  }
+}
